@@ -28,11 +28,12 @@ html, body {
 }
 
 body {
+	color: #fff;
 	position: relative;
-	background-image: url(../img/bg.png);
+	background-image: url(../img/bg3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 -2px;
+	background-position: center;
 }
 
 .no-scroll {
@@ -150,6 +151,7 @@ button:focus, a:focus {
 
 
 .wrapper {
+	background: rgba(0, 0, 0, 0.4);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -165,6 +167,8 @@ button:focus, a:focus {
 
 .page-header {
 	display: flex;
+	background: rgb(4,4,4);
+	background: linear-gradient(0deg, rgba(4,4,4,0) 0%, rgba(4,4,4,0.06591386554621848) 2%, rgba(0,0,0,0.23958333333333337) 11%, rgba(0,0,0,0.45246848739495793) 21%, rgba(0,0,0,0.6093312324929971) 33%, rgba(0,0,0,0.6765581232492996) 46%, rgba(0,0,0,0.6877626050420168) 56%, rgba(0,0,0,0.6877626050420168) 65%, rgba(0,0,0,0.7185749299719888) 100%);
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
@@ -273,7 +277,7 @@ button:focus, a:focus {
 
 
 .mobile-menu {
-	transition: all .6s ease;
+	transition: all .3s ease-in-out;
 	transform: translateX(320px);
 	position: absolute;
 	top: 0;
@@ -529,8 +533,8 @@ button:focus, a:focus {
 .footer {
 	padding: 20px 0 12px 0;
 	text-align: center;
-	background: rgb(110,240,255);
-	background: linear-gradient(180deg, rgba(110,240,255,0) 2%, rgba(0,0,0,0.0799194677871149) 7%, rgba(0,0,0,0.2227766106442577) 16%, rgba(0,0,0,0.5028886554621849) 30%, rgba(0,0,0,0.7942051820728291) 55%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
+	background: rgb(4,4,4);
+background: linear-gradient(180deg, rgba(4,4,4,0) 0%, rgba(4,4,4,0.06591386554621848) 2%, rgba(0,0,0,0.23958333333333337) 11%, rgba(0,0,0,0.45246848739495793) 21%, rgba(0,0,0,0.6205357142857143) 33%, rgba(0,0,0,0.75218837535014) 46%, rgba(0,0,0,0.8278186274509804) 56%, rgba(0,0,0,0.8530287114845938) 65%, rgba(0,0,0,0.8278186274509804) 100%);
 }
 
 .footer-link {
