@@ -15,6 +15,11 @@ ul {
 	margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -452,7 +457,7 @@ button:focus, a:focus {
 	font-weight: 700;
 	font-size: 44px;
 	line-height: 80px;
-	letter-spacing: 7px;
+	letter-spacing: 4px;
 	text-transform: uppercase;
 }
 
@@ -467,7 +472,7 @@ button:focus, a:focus {
 	background: #398ac4;
 	color: #fff;
 	border: 1px solid #fff;
-	font-size: 24px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 	cursor: pointer;
@@ -522,11 +527,13 @@ button:focus, a:focus {
 }
 
 .footer {
-	padding: 20px 0;
+	padding: 20px 0 12px 0;
+	text-align: center;
+	background: rgb(110,240,255);
+	background: linear-gradient(180deg, rgba(110,240,255,0) 2%, rgba(0,0,0,0.05751050420168069) 7%, rgba(0,0,0,0.06591386554621848) 16%, rgba(0,0,0,0.44406512605042014) 30%, rgba(0,0,0,0.7689950980392157) 55%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
 }
 
 .footer-link {
-	text-shadow: 0 0 10px #000;
 	text-align: center;
 	color: #fff;
 	margin: 0 20px;
@@ -537,6 +544,12 @@ button:focus, a:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 15px;
+}
+
+.footer-info {
+	font-size: 18px;
+	color: #fff;
 }
 
 .socials-btn {
@@ -570,7 +583,7 @@ button:focus, a:focus {
 
 	.content-title h1 {
 		font-size: 60px;
-		letter-spacing: 3px;
+		letter-spacing: 5px;
 		line-height: 100px;
 	}
 
