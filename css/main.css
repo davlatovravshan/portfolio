@@ -410,7 +410,7 @@ button:focus, a:focus {
 
 @media(max-width: 576px) {
 	.content-title h1 {
-		font-size: 34px;
+		font-size: 32px;
 		letter-spacing: 1px;
 		line-height: 50px;
 	}
