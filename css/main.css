@@ -148,7 +148,10 @@ button:focus, a:focus {
 
 
 
-
+.title {
+	text-shadow: 0 0 10px #000;
+	letter-spacing: 2px;
+}
 
 .wrapper {
 	background: rgba(0, 0, 0, 0.4);
@@ -454,7 +457,6 @@ button:focus, a:focus {
 
 .content-title h1 {
 	margin: 0;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 	max-width: 100%;
 	text-align: center;
 	color: #fff;
