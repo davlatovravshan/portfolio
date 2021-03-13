@@ -70,7 +70,7 @@ button:focus, a:focus {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #7ac8ff;
+	background: #111;
 	z-index: 999;
 	display: flex;
 	justify-content: center;
@@ -79,7 +79,7 @@ button:focus, a:focus {
 
 @keyframes loader {
 	from {
-		background: #7ac8ff;
+		background: #111;
 		visibility: visible;
 	}
 	to {
