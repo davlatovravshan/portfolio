@@ -530,7 +530,7 @@ button:focus, a:focus {
 	padding: 20px 0 12px 0;
 	text-align: center;
 	background: rgb(110,240,255);
-	background: linear-gradient(180deg, rgba(110,240,255,0) 2%, rgba(0,0,0,0.05751050420168069) 7%, rgba(0,0,0,0.06591386554621848) 16%, rgba(0,0,0,0.44406512605042014) 30%, rgba(0,0,0,0.7689950980392157) 55%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(180deg, rgba(110,240,255,0) 2%, rgba(0,0,0,0.0799194677871149) 7%, rgba(0,0,0,0.2227766106442577) 16%, rgba(0,0,0,0.5028886554621849) 30%, rgba(0,0,0,0.7942051820728291) 55%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
 }
 
 .footer-link {
