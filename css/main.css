@@ -410,9 +410,9 @@ button:focus, a:focus {
 
 @media(max-width: 576px) {
 	.content-title h1 {
-		font-size: 28px;
-		letter-spacing: 2px;
-		line-height: 40px;
+		font-size: 34px;
+		letter-spacing: 1px;
+		line-height: 50px;
 	}
 	.main-offer {
 		margin: 0;
