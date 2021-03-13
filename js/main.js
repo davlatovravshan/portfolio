@@ -3,7 +3,16 @@ var backdrop = $('#backdrop')
 var closeBtn = $('.close-menu')
 var openBtn = $('.burger')
 
+var loader = $('#loader')
+
 var body = $('body')
+
+$(document).ready(function() {
+	setTimeout(function() {
+		loader.addClass('hide')
+		$('.lds-ellipsis').hide()
+	}, 2000)
+})
 
 openBtn.on('click', function() {
 	menu.addClass('active')
