@@ -85,7 +85,7 @@ button:focus, a:focus {
 .lds-ellipsis {
   display: inline-block;
   position: relative;
-  width: 120px;
+  width: 80px;
   height: 80px;
 }
 .lds-ellipsis div {
