@@ -15,6 +15,10 @@
 	overflow: hidden;
 }
 
+.card:first-child {
+	margin-top: 0;
+}
+
 @media(max-width: 576px) {
 	.card {
 		margin: 20px 0;
@@ -60,6 +64,10 @@
 @media(max-width: 576px) {
 	.card-info p {
 		font-size: 16px;
+	}
+
+	.cards {
+		margin: 0;
 	}
 }
 
