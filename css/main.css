@@ -155,6 +155,26 @@ button:focus, a:focus {
 /**LOADER**LOADER**LOADER***/
 
 
+.card-btn {
+	color: inherit;
+	cursor: pointer;
+	background: rgba(26, 149, 237, 1);
+	border-radius: 20px;
+	text-transform: uppercase;
+	width: auto;
+	border: none;
+	font-size: 16px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.card-btn:hover {
+	background: rgba(26, 149, 237, 0.5);
+	transition: all 0.3s ease-in-out;
+}
+
+
 .main-content {
 	flex-grow: 1;
 	margin: 0 20px;

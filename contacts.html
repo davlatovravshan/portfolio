@@ -12,14 +12,14 @@
   <meta name="description" content="Сайт-портфолио FullStack-разработчика Равшана Давлатова.">
 
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contacts.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
- <!--  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
 </head>
 
-<body class="no-scroll">
+<body class="no-scrolll">
 
 
 <div class="wrapper">
@@ -42,7 +42,7 @@
           <a href="about.html" class="main-menu__link">О себе</a>
         </li>
         <li>
-          <a href="contacts.html" class="main-menu__link">Контакты</a>
+          <a href="contacts.html" class="main-menu__link active">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -72,7 +72,7 @@
       <ul class="mobile-menu__list">
         <li><a href="projects.html" class="mobile-menu__link">Мои проекты</a></li>
         <li><a href="about.html" class="mobile-menu__link">О себе</a></li>
-        <li><a href="contacts.html" class="mobile-menu__link">Контакты</a></li>
+        <li><a  class="mobile-menu__link">Контакты</a></li>
       </ul>
       </div>
       <ul class="socials__list">
@@ -90,17 +90,52 @@
   </div>
 
   
-  <div class="main-offer">
+  <div class="main-content">
 
-    <div class="content-title">
-      <h1 class="title">Современная разработка <br>сайтов для вашего бизнеса</h1>
+    <div class="title-div">
+      <h1 class="main-title title">Контакты</h1>
     </div>
 
-    <div class="content-action">
-      <button class="action-btn">
-        Связаться
-      </button>
+
+    <div class="address">
+      
+      <div class="address-info">
+        
+          <div class="address-item">
+            <span class="fas fa-map-marker-alt"></span>
+            <p>Узбекистан, г. Ташкент</p>
+          </div>
+
+          <div class="address-item">
+            <span class="fas fa-phone-alt"></span>
+            <p>+998&nbsp;(93)&nbsp;514-64-91</p>
+          </div>
+
+          <div class="address-item">
+            <span class="fas fa-at"></span>
+            <p>ravshan014@gmail.com</p>
+          </div>
+
+      </div>
+
+    <div class="contact-title">
+      <h1>Отправить сообщение</h1>
     </div>
+
+    <form action="contacts.php" class="contact-form">
+      
+        <input type="text" class="contact-input" placeholder="Тема">
+        <input type="text" class="contact-input" placeholder="Ваше имя и фамилия">
+        <input type="text" class="contact-input" placeholder="Электронная почта">
+        <input type="text" class="contact-input" placeholder="Ваш номер телефона">
+        <textarea class="contact-input" placeholder="Текст сообщения"></textarea>
+        <button type="submit" class="card-btn contact-btn">Отправить</button>
+
+    </form>
+
+
+    </div>  
+
 
   </div>
 
@@ -121,16 +156,15 @@
 
 </div>
 
-<div id="loader">
+<!-- <div id="loader">
   <div class="lds-ellipsis">
     <div></div>
     <div></div>
     <div></div>
   </div>
-</div>
+</div> -->
 
 <div id="backdrop"></div>
-
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"

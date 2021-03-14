@@ -15,11 +15,11 @@
 	overflow: hidden;
 }
 
-.card:first-child {
-	margin-top: 0;
-}
 
 @media(max-width: 576px) {
+	.card:first-child {
+		margin-top: 0;
+	}
 	.card {
 		margin: 20px 0;
 	}
@@ -69,22 +69,4 @@
 	.cards {
 		margin: 0;
 	}
-}
-
-.card-btn {
-	color: inherit;
-	cursor: pointer;
-	background: rgba(26, 149, 237, 1);
-	border-radius: 20px;
-	text-transform: uppercase;
-	width: auto;
-	font-size: 16px;
-	padding: 10px 30px;
-	margin-top: 20px;
-	transition: all 0.3s ease-in-out;
-}
-
-.card-btn:hover {
-	background: rgba(26, 149, 237, 0.5);
-	transition: all 0.3s ease-in-out;
 }
