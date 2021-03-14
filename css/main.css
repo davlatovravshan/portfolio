@@ -1,6 +1,7 @@
 * {
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 1px;
+	max-width: 100%;
 }
 
 a {
@@ -10,6 +11,7 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
 ul {
 	list-style: none;
 	padding: 0;

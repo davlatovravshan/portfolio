@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="no-scroll">
+<body class="no-scrolll">
 
 
 <div class="wrapper">
@@ -99,7 +99,7 @@
 
     <div class="about-content">
 
-     <div class="slider">
+     <div class="slider hide-sm">
        <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -133,9 +133,38 @@
 
     </div>
 
+    <div class="show-sm">
+      
+        <div class="slider">
+         <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="card-img" src="img/portfolio/1.jpg" alt="image">
+            </div>
+            <div class="swiper-slide">
+              <img class="card-img" src="img/portfolio/2.jpg" alt="image">
+            </div>
+            <div class="swiper-slide">
+              <img class="card-img" src="img/portfolio/3.jpg" alt="image">
+            </div>
+            <div class="swiper-slide">
+              <img class="card-img" src="img/portfolio/4.jpg" alt="image">
+            </div>
+            <div class="swiper-slide">
+              <img class="card-img" src="img/portfolio/5.jpg" alt="image">
+            </div>
+          </div>
+            <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
 
+    </div>
 
-  </div>
+    </div>
 
   <footer class="footer">
     <div class="content-socials">
@@ -174,7 +203,7 @@
 <script>
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 100,
     loop: true,
     pagination: {
       el: '.swiper-pagination',
