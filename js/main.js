@@ -9,6 +9,7 @@ var body = $('body')
 
 $(document).ready(function() {
 	setTimeout(function() {
+		body.removeClass('no-scroll')
 		loader.addClass('hide')
 		$('.lds-ellipsis').hide()
 	}, 2000)
