@@ -18,17 +18,63 @@
 }
 
 .card {
-	width: 300px;
+	border: 2px solid #fff;
+	width: 350px;
 	margin: 20px;
-	border-radius: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	background: #255a80;
+	border-radius: 10px;
+	background: rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+@media(max-width: 576px) {
+	.card {
+		margin: 20px 0;
+	}
+}
+
+.card-img-div {
+	cursor: pointer;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px solid #fff;
+	height: 250px;
+	overflow: hidden;
 }
 
 .card-img {
-	width: 300px;
-	height: 250px;
+	transition: all 0.4s ease-in-out;
+	width: 100%;
+	min-width: 350px;
+	height: 100%;
+}
+
+.card-img:hover {
+	transition: all 0.4s ease-in-out;
+	transform: scale(1.1);
+}
+
+.card-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.card-btn {
+	color: inherit;
+	cursor: pointer;
+	background: rgba(26, 149, 237, 1);
 	border-radius: 20px;
+	text-transform: uppercase;
+	width: auto;
+	font-size: 16px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.card-btn:hover {
+	background: rgba(26, 149, 237, 0.5);
+	transition: all 0.3s ease-in-out;
 }
 
 .title-div {
