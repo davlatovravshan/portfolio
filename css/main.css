@@ -263,7 +263,6 @@ button:focus, a:focus {
 	align-items: center;
 	padding: 20px;
 	margin-bottom: 20px;
-	height: 60px;
 }
 
 .main-logo {
@@ -271,6 +270,7 @@ button:focus, a:focus {
 }
 .main-logo__link {
 	font-size: 30px;
+	line-height: 30px;
 	font-weight: 700;
 	color: #fff;
 }
